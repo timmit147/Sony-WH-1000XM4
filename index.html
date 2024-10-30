@@ -101,7 +101,12 @@
 
     <!-- Product Image with Alt Text & ARIA Labels for Accessibility -->
     <section aria-labelledby="product-image">
-        <img src="https://example.com/images/sony-wh-1000xm4.jpg" alt="Sony WH-1000XM4 noise-canceling headphones" loading="lazy" width="800" height="600">
+        <img src="https://example.com/images/sony-wh-1000xm4.jpg" 
+             alt="Sony WH-1000XM4 noise-canceling headphones" 
+             loading="lazy" 
+             width="800" 
+             height="600" 
+             style="width: 100%; max-width: 800px; height: auto;">
         <p><strong>Price:</strong> $349.99</p>
         <a href="https://example.com/buy-sony-wh-1000xm4" class="buy-now" aria-label="Buy Sony WH-1000XM4">Buy Now</a>
     </section>
@@ -128,43 +133,46 @@
     <!-- Comparison to Similar Products -->
     <section>
         <h2>How Do They Compare?</h2>
-        <p>The Sony WH-1000XM4 is a top choice among noise-canceling headphones, but how does it stack up against competitors like the Bose QuietComfort 45? While Bose offers exceptional comfort and audio clarity, the WH-1000XM4 provides a superior noise-canceling experience with additional features like Speak-to-Chat, which automatically pauses music when you start a conversation.</p>
-        <p>Compared to Apple’s AirPods Max, the WH-1000XM4 offers comparable sound quality and noise cancellation but at a more affordable price, making it a great value for those who prioritize quality without breaking the bank.</p>
+        <p>The Sony WH-1000XM4 is a top choice among noise-canceling headphones, but how does it stack up against competitors like the Bose QuietComfort 45? Here’s a quick overview:</p>
+        <table>
+            <thead>
+                <tr>
+                    <th>Feature</th>
+                    <th>Sony WH-1000XM4</th>
+                    <th>Bose QuietComfort 45</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Battery Life</td>
+                    <td>30 hours</td>
+                    <td>24 hours</td>
+                </tr>
+                <tr>
+                    <td>Noise Cancellation</td>
+                    <td>Advanced</td>
+                    <td>Effective</td>
+                </tr>
+                <tr>
+                    <td>Weight</td>
+                    <td>254 grams</td>
+                    <td>240 grams</td>
+                </tr>
+                <tr>
+                    <td>Price</td>
+                    <td>$349.99</td>
+                    <td>$329.99</td>
+                </tr>
+            </tbody>
+        </table>
     </section>
 
-    <!-- Real User Testimonials with Schema Markup for Ratings -->
-    <section>
-        <h2>Customer Reviews and Experiences</h2>
-        <article itemscope itemtype="https://schema.org/Review">
-            <h3 itemprop="headline">"Amazing Noise Cancellation!" - 5/5</h3>
-            <p itemprop="reviewBody">"These headphones are a game-changer for my daily commute. Outstanding sound and comfort!" - <span itemprop="author">Sarah L.</span></p>
-            <meta itemprop="reviewRating" content="5">
-        </article>
-        <article itemscope itemtype="https://schema.org/Review">
-            <h3 itemprop="headline">"Best for Travel" - 5/5</h3>
-            <p itemprop="reviewBody">"Lightweight, excellent battery life, and perfect for work or leisure." - <span itemprop="author">Michael B.</span></p>
-            <meta itemprop="reviewRating" content="5">
-        </article>
-    </section>
-
-    <!-- Frequently Asked Questions for Voice Search Optimization -->
-    <section>
-        <h2>Frequently Asked Questions about Sony WH-1000XM4</h2>
-        <h3>What makes Sony WH-1000XM4 the best noise-canceling headphones?</h3>
-        <p>With industry-leading noise cancellation and dual noise sensors, the WH-1000XM4 creates an immersive listening experience, blocking out background noise.</p>
-        <h3>How long does the battery last on Sony WH-1000XM4?</h3>
-        <p>The headphones offer up to 30 hours of playback time on a full charge, ensuring you stay connected and entertained for long periods.</p>
-    </section>
-
-    <!-- Additional Internal Linking for Improved Navigation -->
     <footer>
-        <h2>Explore More Sony Products</h2>
-        <ul>
-            <li><a href="https://example.com/sony-wh-1000xm3">Sony WH-1000XM3 - Previous Model</a></li>
-            <li><a href="https://example.com/sony-wf-1000xm4">Sony WF-1000XM4 - True Wireless Earbuds</a></li>
-            <li><a href="https://example.com/sony-ht-z9f">Sony HT-Z9F - Soundbar</a></li>
-        </ul>
         <p>&copy; 2024 Sony Electronics. All rights reserved.</p>
     </footer>
+
+    <!-- JavaScript -->
+    <script type="module" src="path/to/modern-script.js"></script>
+    <script nomodule src="path/to/legacy-script.js"></script>
 </body>
 </html>
